@@ -1,0 +1,37 @@
+.nav{
+    display: flex;
+    justify-content:space-between;
+    .nav_buttons ul{
+        display: flex;
+        list-style: none;
+        font-size: 20px;
+        padding-left: 0px;
+    }
+    .nav_buttons li{
+        padding-left: 30px;
+    }
+    .nav_buttons li a{
+        text-decoration: none;
+        color: peru;
+        font-weight: bold;
+    }
+    .nav_search{
+        padding-top: 26px;
+        padding-right: 50px;
+        input{
+            border-color: peru;
+            border-right: 0px;
+            height: 30px;
+            width: 300px;
+        }
+        button{
+            border-left: 0px;
+            border-color: peru;
+            height:36px;
+            width: 100px;
+
+        }
+    }
+    
+
+}

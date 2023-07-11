@@ -1,0 +1,25 @@
+.login{
+    margin:100px;
+    border: 2px peru solid;
+    background-color: aqua;
+    text-align: center;
+    .login_text{
+        margin-top: 50px;
+    }
+    .user_input{
+        margin-left: 0px;
+        padding-left: 0px;
+        input{
+            height: 40px;
+            width: 400px;
+            border:1px solid peru;
+            margin-bottom: 30px;
+        }
+        button{
+            margin-bottom: 10px;
+        }
+    }
+    
+    
+    
+}

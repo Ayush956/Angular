@@ -1,0 +1,13 @@
+<form class="seller" #seller_sign ="ngForm" (ngSubmit)="seller_signup(seller_sign.value)">
+    <div class="seller_text">
+        SELLER LOG IN
+    </div>
+    <div class="options">
+        <input type="text" placeholder="Type Username" ngModel name="Name">
+        <input type="text" placeholder="Password" name="Password" ngModel>
+    </div>
+    <div class="seller_create">
+        <button type="Submit">Login</button>
+        <button type="Submit">Signup</button>
+    </div>
+</form>
